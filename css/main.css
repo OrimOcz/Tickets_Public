@@ -1,0 +1,137 @@
+
+body {
+    background-image: url(../data/img/rnr_back1.jpg);
+    background-size: 100%;
+}
+
+.header {
+    background-color: #313133;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header .img {
+    width: 1000px;
+    margin: 0 auto;
+    height: 250px;
+    background-image: url(../data/img/rnr_header1.jpg);
+}
+
+.footer {
+    background-color: #313133;
+    width: 1300px;
+    margin: 0 auto;
+    height: 200px;
+    color: white;
+    padding: 30px;
+}
+
+.main_content {
+    width: 1300px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+}
+.idk{
+  border-radius: 10px;
+background: white;
+}
+.info_msg {
+    background-color: #ffffdd;
+    padding: 12px;
+    border: 1px solid #9c9c48;
+    border-radius: 4px;
+    color: #2c2c09;
+}
+
+.error_msg {
+    background-color: #ffdddd;
+    padding: 12px;
+    border: 1px solid #9c4848;
+    border-radius: 4px;
+    color: #2c2c09;
+}
+
+#order_form {
+    padding: 12px;
+}
+
+#order_form .plan {
+    float: left;
+    width: 800px;
+    height: 832px;
+    position: relative;
+    background-image: url(../img/plan-bg2.png);
+}
+
+#order_form .detail {
+    float: right;
+    width: 370px;
+    min-height: 1000px;
+}
+
+#order_form .detail .info {
+    color: #555;
+    font-style: italic;
+}
+
+#order_form .plan .table_box {
+    transform: rotate(45deg);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+#order_form .plan .table_box .table {
+    border: 1px black solid;
+    background: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+
+#order_form .plan .table_box .number {
+    transform: rotate(-45deg);
+    margin: 0px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    user-select: none;
+}
+
+#order_form .plan .table_box .seat {
+    border: 1px black solid;
+    width: 13px;
+    height: 13px;
+    border-radius: 7px;
+    position: absolute;
+}
+
+#order_form .plan .table_box .seat_available {
+    cursor: pointer;
+    background-color: #21bf21;
+}
+
+#order_form .plan .table_box .seat_selected {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+#order_form .plan .table_box .seat_used {
+    background-color: #999;
+}
+
+.reset {
+    clear: both;
+}
+
+#order_form .detail .remove_link {
+    color: gray;
+    cursor: pointer;
+}
+#order_form .detail .remove_link:hover {
+    color: #555;
+    text-decoration: underline;
+}
